@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --entry ./index.js -p --output-filename=./build.js --output-path=./build/",
+    "build:new": "webpack --entry ./index_new.js -p --output-filename=./build_new.js --output-path=./build/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hasnat/redux-modules": "^1.0.4",
+    "prop-types": "^0.2.0",
+    "redux": "^3.7.2",
+    "redux-modules": "^0.6.6"
+  },
+  "devDependencies": {
+    "webpack": "^3.4.1"
+  }
+}

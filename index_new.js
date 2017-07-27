@@ -1,0 +1,1 @@
+var reduxModules = require('@hasnat/redux-modules');
