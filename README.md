@@ -1,4 +1,6 @@
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hasnat/lodash-plugin-test.svg)](https://greenkeeper.io/)
+
 
 Build size change
 
